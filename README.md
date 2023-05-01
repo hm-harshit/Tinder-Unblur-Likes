@@ -1,17 +1,17 @@
-# Tinder Unblur Likes
+# Tinder Unblur Photos Who Likes You
 
-Tinder Unblur Likes is an open-source JavaScript project aimed at providing Tinder users with the ability to unblur the likes they receive on their profiles. This project was created to enhance the user experience on Tinder by offering a glimpse into the profiles that have already liked them without requiring a paid subscription.
+Tinder Unblur Photos Who Likes You is an open-source JavaScript project aimed at providing Tinder users with the ability to unblur the photos of users who liked their profiles. This project was created to enhance the user experience on Tinder by offering a glimpse into the profiles that have already liked them without requiring a paid subscription.
 
 ## Features
 
-* Unblur Tinder likes without requiring Tinder Gold or Tinder Plus subscription.
+* Unblur photos of Tinder users who liked you without requiring Tinder Gold or Tinder Plus subscription.
 * Simple and easy-to-use console script.
 * Compatible with modern web browsers.
 * User privacy maintained - no login credentials required.
 
 ## How it works
 
-The Tinder Unblur Likes project contains a JavaScript console script that manipulates the DOM elements of the Tinder web interface to unblur the images associated with the likes on a user's profile.
+The Tinder Unblur Photos Who Likes You project contains a JavaScript console script that manipulates the DOM elements of the Tinder web interface to unblur the images associated with the likes on a user's profile.
 
 ## Usage
 
@@ -20,7 +20,7 @@ The Tinder Unblur Likes project contains a JavaScript console script that manipu
 * A modern web browser with JavaScript enabled.
 * A Tinder account.
 
-### Steps to unblur likes
+### Steps to unblur photos of users who liked you
 
 1. Log in to your Tinder account on the web interface at https://tinder.com.
 2. Simply click on the like page. https://tinder.com/app/likes-you
@@ -41,3 +41,7 @@ We welcome contributions from the community to improve and expand the features o
 ## Support & Issues
 
 If you encounter any issues or need assistance with the project, please create an issue on the GitHub repo or contact the maintainers directly.
+
+## License
+
+Tinder Unblur Photos Who Likes You is released under the MIT License. By using this project, you agree to the terms and conditions specified in the license. A copy of the license can be found in the `LICENSE` file in the repository.

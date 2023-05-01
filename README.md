@@ -26,7 +26,7 @@ The Tinder Unblur Likes project contains a JavaScript console script that manipu
 2. Simply click on the like page. https://tinder.com/app/likes-you
 3. Open your browser's Developer Tools. This can usually be accessed by right-clicking on the page and selecting "Inspect" or pressing `Ctrl+Shift+I` (Windows) or `Cmd+Option+I` (Mac).
 4. Navigate to the "Console" tab in the Developer Tools.
-5. Copy and paste the contents of the `console.js` file from the repository into the console.
+5. Copy and paste the contents of the `tinder-unblur-likes.js` file from the repository into the console.
 6. Press `Enter` to execute the script.
 7. The script will now unblur the images of users who have liked your profile.
 

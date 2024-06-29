@@ -13,7 +13,6 @@ async function unblur() {
   )
 
   teasers.forEach((teaser, index) => {
-      console.log(teaser)
       if (teaser.user.recently_active) 
           document.querySelector('[aria-labelledby="02d620a8e38797fb"] > title').textContent = `Likes you - Recently active`
     else document.querySelector('[aria-labelledby="02d620a8e38797fb"] > title').textContent = `Likes you - Not Recently active`

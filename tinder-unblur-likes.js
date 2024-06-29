@@ -18,3 +18,4 @@ async function unblur() {
     teaserEl.style.backgroundImage = `url(${teaserImage})`;
   });
 }
+unblur()

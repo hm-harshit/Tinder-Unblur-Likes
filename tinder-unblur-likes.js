@@ -9,8 +9,8 @@ async function unblur() {
     .then((res) => res.data.results);
 
   const teaserEls = document.querySelectorAll(
-    ".Expand.enterAnimationContainer > div:nth-child(1)"
-  );
+'[class="Expand Pos(r) Bdrs(4px) Ov(h)"] > div'
+  )
 
   teasers.forEach((teaser, index) => {
     const teaserEl = teaserEls[index];
@@ -18,5 +18,3 @@ async function unblur() {
     teaserEl.style.backgroundImage = `url(${teaserImage})`;
   });
 }
-
-unblur();

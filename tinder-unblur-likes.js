@@ -13,9 +13,15 @@ async function unblur() {
   )
 
   teasers.forEach((teaser, index) => {
+      console.log(teaser)
+      if (teaser.user.recently_active) 
+          document.querySelector('[aria-labelledby="02d620a8e38797fb"] > title').textContent = `Likes you - Recently active`
+    else document.querySelector('[aria-labelledby="02d620a8e38797fb"] > title').textContent = `Likes you - Not Recently active`
+      
     const teaserEl = teaserEls[index];
     const teaserImage = `https://preview.gotinder.com/${teaser.user._id}/original_${teaser.user.photos[0].id}.jpeg`;
     teaserEl.style.backgroundImage = `url(${teaserImage})`;
   });
 }
-unblur()
+
+unblur();
